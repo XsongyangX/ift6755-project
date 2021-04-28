@@ -1,2 +1,5 @@
 .vscode/
 *.png
+
+# where the tokenized data is stored
+processed/

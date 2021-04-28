@@ -1,3 +1,6 @@
 [submodule "data/hand"]
 	path = data/hand
 	url = https://github.com/XsongyangX/UML-hand-class-diagrams.git
+[submodule "models"]
+	path = models
+	url = https://github.com/lmthang/nmt.hybrid
