@@ -20,7 +20,6 @@ do
     > "$grouped_file".txt
     for file in "data/hand/$folder/"*.txt
     do
-        python english_tokenizer.py < "$file" | tr "\n" " " >> "$grouped_file".txt
-        echo "" >> "$grouped_file".txt
+        python english_tokenizer.py < "$file" >> "$grouped_file".txt
     done
 done
